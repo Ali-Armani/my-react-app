@@ -19,3 +19,20 @@
 .fruits-photo {
   max-width: 12rem;
 }
+
+.buy-fruits {
+  font-size: 1.1rem;
+  font-weight: 600;
+  background-color: rgb(16, 187, 73);
+  color: rgb(255, 255, 255);
+  padding: 1rem;
+  margin: 1rem auto 1rem;
+  border-radius: 2rem;
+  transition: background-color 0.2s ease, color 0.2s ease, box-shadow 0.2s ease;
+}
+
+.buy-fruits:hover {
+  background-color: rgb(255, 255, 255);
+  color: rgb(16, 187, 73);
+  box-shadow: 0.4rem 0.4rem 0.4rem rgba(0, 0, 0, 0.175);
+}
