@@ -1,6 +1,6 @@
 <div align="center">
 
-# React Practice Repo
+![Header](https://capsule-render.vercel.app/api?type=waving&color=6366F1&height=200&section=header&text=ReactPractice&fontSize=50&fontColor=ffffff&animation=fadeIn)
 
 
 
