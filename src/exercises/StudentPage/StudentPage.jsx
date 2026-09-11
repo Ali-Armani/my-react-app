@@ -2,7 +2,7 @@ import Student from './Student';
 
 function StudentPage() {
   return (
-    <div>
+    <div className='student'>
       <hr />
       <Student name="SpongeBob" age={30} isStudent={1} />
       <hr />
