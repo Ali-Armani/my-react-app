@@ -1,6 +1,6 @@
 <div align="center">
 
-React Practice Repo
+# React Practice Repo
 
 
 
