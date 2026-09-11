@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🍔 Food Page — React Practice Repo
+React Practice Repo
 
 
 
