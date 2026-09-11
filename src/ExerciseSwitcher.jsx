@@ -1,10 +1,12 @@
 import { useState } from 'react';
-import FoodPage from './exercises/FoodPage/FoodPage';
+import UserGreeting from './exercises/UserGreeting/UserGreeting';
 import StudentPage from './exercises/StudentPage/StudentPage';
+import FoodPage from './exercises/FoodPage/FoodPage';
 
 const exercises = {
-  foodPage: FoodPage,
+  userGreeting: UserGreeting,
   studentPage: StudentPage,
+  foodPage: FoodPage,
 };
 
 function ExerciseSwitcher() {
