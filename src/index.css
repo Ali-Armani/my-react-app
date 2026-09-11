@@ -1,7 +1,12 @@
 * {
-  margin: 0;
-  border: 0;
   box-sizing: border-box;
+}
+
+body {
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  margin: 2.5rem;
 }
 
 .card {
