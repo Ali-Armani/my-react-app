@@ -15,6 +15,8 @@ function StudentPage() {
       <Student name="Emily" age="21" isStudent={undefined} />
       <hr />
       <Student name="Luca" age="29" isStudent={false} />
+      <hr />
+      <Student />
     </div>
   );
 }
