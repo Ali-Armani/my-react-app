@@ -61,3 +61,27 @@ body {
 .student p {
   margin: 0.5rem;
 }
+
+/*=================================================================
+                    User Greeting (Login) Page
+================================================================*/
+
+.welcome-message {
+  display: inline-block;
+  font-size: 1.625rem;
+  background-color: rgb(26, 190, 26);
+  color: white;
+  padding: 0.625rem;
+  margin-top: 1.25rem;
+  border-radius: 0.75rem;
+}
+
+.login-prompt {
+  display: inline-block;
+  font-size: 1.625rem;
+  background-color: rgb(192, 41, 14);
+  color: white;
+  padding: 0.625rem;
+  margin-top: 1.25rem;
+  border-radius: 0.75rem;
+}
