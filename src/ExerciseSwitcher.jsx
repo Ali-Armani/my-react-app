@@ -1,10 +1,10 @@
 import { useState } from 'react';
-import UserGreeting from './exercises/UserGreeting/UserGreeting';
+import UserGreetingPage from './exercises/UserGreeting/UserGreetingPage';
 import StudentPage from './exercises/StudentPage/StudentPage';
 import FoodPage from './exercises/FoodPage/FoodPage';
 
 const exercises = {
-  userGreeting: UserGreeting,
+  userGreetingPage: UserGreetingPage,
   studentPage: StudentPage,
   foodPage: FoodPage,
 };
