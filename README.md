@@ -23,11 +23,11 @@
 
 
 
-[
+
 
 ![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&pause=1000&color=61DAFB&center=true&vCenter=true&width=500&lines=Learning+React+one+component+at+a+time;Practice+repo+%E2%80%94+not+a+skill+showcase;Mistakes+are+part+of+the+process+%F0%9F%8C%B1)
 
-](https://git.io/typing-svg)
+
 
 </div>
 
