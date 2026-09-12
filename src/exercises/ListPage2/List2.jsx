@@ -13,7 +13,7 @@ function List2(props) {
 //  return(<ul>{listItems}</ul>);
 // <h3>{category}</h3>
 
-  return(<><h3 className="list-category">{category}</h3>
+  return(<><h3 className="list-category">{category}:</h3>
             <ol className="list-items">{listItems}</ol>
             </>);
 }
