@@ -55,14 +55,14 @@ Each exercise lives in its own folder and can be viewed through a simple switche
 
 ## 🚀 Getting Started
 
-\`\`\`bash
+```bash
 npm install
 npm run dev
-\`\`\`
+```
 
 ## 📁 Project Structure
 
-\`\`\`
+```
 src/
   exercises/
     FoodPage/
@@ -74,7 +74,7 @@ src/
       Footer.jsx
   App.jsx
   ExerciseSwitcher.jsx
-\`\`\`
+```
 
 ---
 
