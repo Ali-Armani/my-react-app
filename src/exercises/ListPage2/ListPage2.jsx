@@ -15,9 +15,18 @@ function ListPage2() {
                       {id: 4, name: "corn", calories: 63},
                       {id: 5, name: "boroccoli", calories: 50}];
 
-  return(<> <List2 items={fruits} category="Fruits"/>
-            <List2 items={vegetables} category="Vegetables"/>
-            </>);
-}
+/*                      
+  return(<> 
+            {fruits.length > 0 ? <List2 items={fruits} category="Fruits"/> : null}
+            {vegetables.length > 0 ? <List2 items={vegetables} category="Vegetables"/> : null};
+  </>);
+*/
+
+  return(<> 
+            {fruits.length > 0 && <List2 items={fruits} category="Fruits"/>}
+            {vegetables.length > 0 && <List2 items={vegetables} category="Vegetables"/>}
+  </>);
+
+  }
 
 export default ListPage2;
