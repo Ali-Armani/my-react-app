@@ -121,3 +121,55 @@ body {
   font-size: 1.275rem;
 
 }
+
+/*=================================================================
+                            CounterPage
+================================================================*/
+
+.counter-container {
+  text-align: center;
+  margin: 2rem auto 2rem;
+}
+
+.count-display {
+  font-size: 8rem;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: 600;
+}
+
+.count-button {
+  padding: 1rem;
+  font-size: 1.5rem;
+  border-radius: 1rem;
+  border: none;
+  margin: 1rem;
+  min-width: 4rem;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.decr {
+  background-color: hsl(0, 100%, 60%);
+  transition: background-color 0.2s ease-in-out;
+}
+
+.decr:hover {
+  background-color: hsl(0, 100%, 42%);
+}
+
+.reset {
+  background-color: hsl(0, 0%, 83%);
+  transition: background-color 0.2s ease-in-out;
+}
+
+.reset:hover {
+  background-color: hsl(0, 0%, 63%);
+}
+
+.incr {
+  background-color: hsl(120, 100%, 40%);
+  transition: background-color 0.2s ease-in-out;
+}
+
+.incr:hover {
+  background-color: hsl(120, 100%, 25%);
+}
