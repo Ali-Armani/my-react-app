@@ -4,7 +4,7 @@ import MyComponent from './MyComponent.jsx'
 function MyComponentPage() {
 
   return(
-    <>A</>
+    <MyComponent />
   )
 }
 
