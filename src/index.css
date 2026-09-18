@@ -173,3 +173,43 @@ body {
 .incr:hover {
   background-color: hsl(120, 100%, 25%);
 }
+
+/*=================================================================
+                            ColorPicker
+================================================================*/
+
+.color-picker-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin: 2rem auto;
+  gap: 1rem;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.color-display {
+  height: 16rem;
+  width: 16rem;
+  border-radius: 50%;
+  padding: 2rem;
+  margin-bottom: 1.75rem;
+}
+
+.color-display p {
+  text-align: center;
+  font-size: 1.25rem;
+}
+
+.color-picker-container label {
+  font-size: 1.3rem;
+  font-weight: 600;
+}
+
+input[type='color'] {
+  border: 3px solid rgb(213, 213, 213);
+  border-radius: 10%;
+  width: 4.5rem;
+  height: 2.5rem;
+}
