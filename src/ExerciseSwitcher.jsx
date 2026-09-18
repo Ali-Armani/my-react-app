@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import OnChangePage from './exercises/OnChangePage/OnChangePage';
 import CounterPage from './exercises/CounterPage/Counter'
 import MyComponentPage from './exercises/MyComponentPage/MyComponentPage'
 import ButtonPage from './exercises/ButtonPage/ButtonPage';
@@ -9,6 +10,7 @@ import StudentPage from './exercises/StudentPage/StudentPage';
 import FoodPage from './exercises/FoodPage/FoodPage';
 
 const exercises = {
+  onChangePage: OnChangePage,
   counterPage: CounterPage,
   myComponentPage: MyComponentPage,
   buttonPage: ButtonPage,
