@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import ColorPickerPage from './exercises/ColorPickerPage/ColorPickerPage';
 import OnChangePage from './exercises/OnChangePage/OnChangePage';
 import CounterPage from './exercises/CounterPage/Counter'
 import MyComponentPage from './exercises/MyComponentPage/MyComponentPage'
@@ -10,6 +11,7 @@ import StudentPage from './exercises/StudentPage/StudentPage';
 import FoodPage from './exercises/FoodPage/FoodPage';
 
 const exercises = {
+  colorPickerPage: ColorPickerPage,
   onChangePage: OnChangePage,
   counterPage: CounterPage,
   myComponentPage: MyComponentPage,
